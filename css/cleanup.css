@@ -1,1 +1,22 @@
 /* write your override styles here */
+#wall .tag-1 {
+    opacity: 1;
+    z-index: 1;
+    height: 700px;
+}
+
+div#wall #tag-3.slick.wicked {
+    z-index: 1;
+    position: absolute;
+    left: 15%;
+}
+
+div#wall .parent #tag-4 {
+    display: block;
+    z-index: 999;
+    opacity: 0.9;
+}
+div#wall div.parent div:last-child,
+div div#tag-6 {
+    display: none;
+}
